@@ -1,0 +1,60 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+}
+
+plugins {
+    id 'java-library'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_9
+    targetCompatibility = JavaVersion.VERSION_1_9
+}
+
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+}
+
+mainClassName = 'by.valuesoft.Main'
+
+manifest {
+    attributes 'Main-Class': mainClassName
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': mainClassName
+    }
+}
+
+sourceSets {
+    main {
+        java.srcDirs = ["src/main/java"]
+    }
+}
+
+repositories {
+    google() // and here
+    jcenter()
+    maven { url 'https://maven.google.com' } // For Gradle < 4.0
+    mavenCentral()
+
+}
+
+task runServer (type: JavaExec) {
+    main = mainClassName
+    classpath = sourceSets.main.runtimeClasspath
+}
+
+dependencies {
+    implementation 'org.json:json:20220320'
+    implementation 'com.github.pengrad:java-telegram-bot-api:6.3.0'
+    implementation group: 'org.jsoup', name: 'jsoup', version: '1.16.1'
+
+}
