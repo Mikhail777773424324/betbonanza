@@ -15,4 +15,4 @@
    TASK=BETBONANZA docker-compose up --no-log-prefix --remove-orphans
 ```
 
-#### 4. After script is finished, `bonanza.html` file will appear in `html/output/${TASK}.html`
+#### 4. After script is finished, `betbonanza.html` file will appear in `html/output/betbonanza.html`
