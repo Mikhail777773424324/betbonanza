@@ -1,0 +1,99 @@
+| №  | Название         | Ссылка                              |
+|--- |----------------- |-------------------------------------|
+| 1  | Bet365           | https://www.bet365.com              |
+| 2  | William Hill     | https://www.williamhill.com         |
+| 3  | Ladbrokes        | https://www.ladbrokes.com           |
+| 4  | Paddy Power      | https://www.paddypower.com          |
+| 5  | Betfair          | https://www.betfair.com             |
+| 6  | 888sport         | https://www.888sport.com            |
+| 7  | Bwin             | https://www.bwin.com                |
+| 8  | Unibet           | https://www.unibet.com              |
+| 9  | Betway           | https://www.betway.com              |
+|10  | 1xBet            | https://www.1xbet.com               |
+|11  | Betsson          | https://www.betsson.com             |
+|12  | Betfred          | https://www.betfred.com             |
+|13  | Coral            | https://www.coral.co.uk             |
+|14  | Sportingbet      | https://www.sportingbet.com         |
+|15  | Marathonbet      | https://www.marathonbet.com         |
+|16  | Bet-at-home      | https://www.bet-at-home.com         |
+|17  | Betvictor        | https://www.betvictor.com           |
+|18  | 10Bet            | https://www.10bet.com               |
+|19  | Betfair Exchange | https://www.betfair.com/exchange    |
+|20  | SBOBET           | https://www.sbobet.com              |
+|21  | Betfair Sportsbo | https://www.betfair.com/sport       |
+|22  | Pinnacle         | https://www.pinnacle.com            |
+|23  | 22Bet            | https://www.22bet.com               |
+|24  | Betdaq           | https://www.betdaq.com              |
+|25  | Bet365.es        | https://www.bet365.es               |
+|26  | Interwetten      | https://www.interwetten.com         |
+|27  | Betcris          | https://www.betcris.com             |
+|28  | Dafabet          | https://www.dafabet.com             |
+|29  | 1xBit            | https://www.1xbit.com               |
+|30  | Rivalo           | https://www.rivalo.com              |
+|31  | Betway.es        | https://www.betway.es               |
+|32  | 188Bet           | https://www.188bet.com              |
+|33  | Betadonis        | https://www.betadonis.com           |
+|34  | ComeOn           | https://www.comeon.com              |
+|35  | NetBet           | https://www.netbet.com              |
+|36  | TonyBet          | https://www.tonybet.com             |
+|37  | Sporting Index   | https://www.sportingindex.com       |
+|38  | Melbet           | https://www.melbet.com              |
+|39  | 12BET            | https://www.12bet.com               |
+|40  | Betsson.es       | https://www.betsson.es              |
+|41  | Mr Green Sports  | https://www.mrgreen.com/sports      |
+| 42 | Novibet          | https://www.novibet.com             |
+| 43 | BetClic          | https://www.betclic.com             |
+| 44 | Bet-At-Home      | https://www.bet-at-home.com         |
+| 45 | Betfair.it       | https://www.betfair.it              |
+| 46 | Tempobet         | https://www.tempobet.com            |
+| 47 | Betfred          | https://www.betfred.com             |
+| 48 | Betcris          | https://www.betcris.com             |
+| 49 | Bethard          | https://www.bethard.com             |
+| 50 | Betfair.pt       | https://www.betfair.pt              |
+| 51 | Betworld         | https://www.betworld.com            |
+| 52 | BetUS            | https://www.betus.com               |
+| 53 | 10Cric           | https://www.10cric.com              |
+| 54 | BetWinner        | https://www.betwinner.com           |
+| 55 | Betboro          | https://www.betboro.com             |
+| 56 | NordicBet        | https://www.nordicbet.com           |
+| 57 | Betway.it        | https://www.betway.it               |
+| 58 | LeoVegas Sport   | https://www.leovegassport.com       |
+| 59 | Bet.pt           | https://www.bet.pt                  |
+| 60 | Betcris.mx       | https://www.betcris.mx              |
+| 61 | BetHard          | https://www.bethard.com             |
+| 62 | Betfred.it       | https://www.betfred.it              |
+| 63 | Betsafe          | https://www.betsafe.com             |
+| 64 | Betway.mx        | https://www.betway.mx               |
+| 65 | LV BET           | https://www.lvbet.com               |
+| 66 | BetZest          | https://www.betzest.com             |
+| 67 | Cloudbet         | https://www.cloudbet.com            |
+| 68 | Bet3000          | https://www.bet3000.com             |
+| 69 | Betvictor.it     | https://www.betvictor.it            |
+| 70 | Betway.de        | https://www.betway.de               |
+| 71 | Betfred.es       | https://www.betfred.es              |
+| 72 | EnergyBet        | https://www.energybet.com           |
+| 73 | MansionBet       | https://www.mansionbet.com          |
+| 74 | FavBet           | https://www.favbet.com              |
+| 75 | STS              | https://www.stsbet.com              |
+| 76 | Fastbet          | https://www.fastbet.com             |
+| 77 | Betiton          | https://www.betiton.com             |
+| 78 | Betway.be        | https://www.betway.be               |
+| 79 | Betfair.gr       | https://www.betfair.gr              |
+| 80 | BetRegal         | https://www.betregal.com            |
+| 81 | BetBull          | https://www.betbull.com             |
+| 82 | BetHard.no       | https://www.bethard.no              |
+| 83 | Betzela          | https://www.betzela.com             |
+| 84 | Betmaster        | https://www.betmaster.io            |
+| 85 | Betzino          | https://www.betzino.com             |
+| 86 | Betiton.de       | https://www.betiton.de              |
+| 87 | Betvictor.de     | https://www.betvictor.de            |
+| 88 | Betfair.ro       | https://www.betfair.ro              |
+| 89 | Betway.dk        | https://www.betway.dk               |
+| 90 | Bets10           | https://www.bets10.com              |
+| 91 | Betano           | https://www.betano.com              |
+| 92 | BetVictor.gr     | https://www.betvictor.gr            |
+| 93 | Betway.gr        | https://www.betway.gr               |
+| 94 | Rizk Sports      | https://www.rizk.com/sports         |
+| 95 | Betsson.no       | https://www.betsson.no              |
+| 96 | Bet.pt           | https://www.bet.pt                  |
+| 97 | Betfair.dk       | https://www.betfair.dk              |
