@@ -9,9 +9,8 @@ public class Main {
         if (Consts.TASK.equalsIgnoreCase("BETBONANZA")) {
             Data.storeAsHTML(
                     new BetBonanza(Consts.URL)
-                            .parse()
+                            .parse(), Consts.TASK
             );
-
         } else {
             throw new Exception("System.env 'TASK' should be configured, try TASK=BETBONANZA");
         }

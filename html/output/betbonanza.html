@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BetBonanza</title>
+  <style>
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+<table id="myTable">
+  <thead>
+  <tr>
+    <th onclick="sortTable(0)">Date</th>
+    <th>Clubs</th>
+    <th>Tournament</th>
+    <th>Sport</th>
+  </tr>
+  </thead>
+  <tbody>
+      <tr><td data-date="13694400000">08 Jun 12:00</td><td>Ba Ria Vung Tau - Hoa Binh</td><td>V-League 2</td><td>Football</td></tr><tr><td data-date="13696500000">08 Jun 12:35</td><td>Changchun Yatai - Shenzhen</td><td>Super League</td><td>Football</td></tr><tr><td data-date="13696500000">08 Jun 12:35</td><td>Chengdu Rongcheng - Tianjin Teda</td><td>Super League</td><td>Football</td></tr><tr><td data-date="13696500000">08 Jun 12:35</td><td>Qingdao Manatee - Shanghai Shenhua</td><td>Super League</td><td>Football</td></tr><tr><td data-date="13698000000">08 Jun 13:00</td><td>Almagro Reserves - Defensores Unidos Reserves</td><td>Reserve League</td><td>Football</td></tr><tr><td data-date="13698000000">08 Jun 13:00</td><td>Jas Qyran - FK Akzhayik Uralsk</td><td>Division 1</td><td>Football</td></tr><tr><td data-date="13701600000">08 Jun 14:00</td><td>ASV 13 Vienna - Post SV</td><td>Landesliga</td><td>Football</td></tr><tr><td data-date="13701600000">08 Jun 14:00</td><td>Los Andes Reserves - Villa San Carlos Reserves</td><td>Reserve League</td><td>Football</td></tr><tr><td data-date="13701600000">08 Jun 14:00</td><td>PDRM - Sabah FA</td><td>Super League</td><td>Football</td></tr><tr><td data-date="13701600000">08 Jun 14:00</td><td>Penang - Kuala Lumpur City FC</td><td>Super League</td><td>Football</td></tr><tr><td data-date="13701600000">08 Jun 14:00</td><td>SV Wienerberg - Slovan Hutteldorfer AC</td><td>Landesliga</td><td>Football</td></tr><tr><td data-date="13705200000">08 Jun 15:00</td><td>Belgrano de Cordoba - CA Estudiantes de Caseros</td><td>Primera Division. Women</td><td>Football</td></tr><tr><td data-date="13705200000">08 Jun 15:00</td><td>Defensores de Belgrano Reserves - Defensa Y Justicia Reserves</td><td>Reserve League</td><td>Football</td></tr><tr><td data-date="13705200000">08 Jun 15:00</td><td>Godoy Cruz Reserves - Atletico Tucuman Reserves</td><td>Reserve League</td><td>Football</td></tr><tr><td data-date="13705200000">08 Jun 15:00</td><td>La Viena FC - Telephomet Bani Suef</td><td>Division 2</td><td>Football</td></tr><tr><td data-date="13705200000">08 Jun 15:00</td><td>Rosario Central Reserves - Barracas Central Reserves</td><td>Reserve League</td><td>Football</td></tr><tr><td data-date="13705200000">08 Jun 15:00</td><td>Union De Santa Fe Reserves - Newells Old Boys Reserves</td><td>Reserve League</td><td>Football</td></tr><tr><td data-date="13707000000">08 Jun 15:30</td><td>Pomigliano - Lazio</td><td>Serie A. Women</td><td>Football</td></tr><tr><td data-date="13708800000">08 Jun 16:00</td><td>CA Platense - Ca Independiente</td><td>Primera Division. Women</td><td>Football</td></tr><tr><td data-date="13708800000">08 Jun 16:00</td><td>Moghayer Al Sarhan - Shabab Al Ordon</td><td>Shield Cup</td><td>Football</td></tr><tr><td data-date="13708800000">08 Jun 16:00</td><td>Spratzern - Langenrohr</td><td>Landesliga</td><td>Football</td></tr><tr><td data-date="13709700000">08 Jun 16:15</td><td>SJK - VPS Vaasa</td><td>Veikkausliiga</td><td>Football</td></tr><tr><td data-date="13710600000">08 Jun 16:30</td><td>FK Jablonec II - Viktoria Zizkov</td><td>Czech Rep. Division 3</td><td>Football</td></tr><tr><td data-date="13710600000">08 Jun 16:30</td><td>KPV - SalPa Salo</td><td>Ykkonen</td><td>Football</td></tr><tr><td data-date="13710600000">08 Jun 16:30</td><td>Kultsu - MyPa</td><td>Kolmonen</td><td>Football</td></tr><tr><td data-date="13710600000">08 Jun 16:30</td><td>Rips - Noula</td><td>Kolmonen</td><td>Football</td></tr><tr><td data-date="13710600000">08 Jun 16:30</td><td>TPS - KaPa</td><td>Ykkonen</td><td>Football</td></tr><tr><td data-date="13712400000">08 Jun 17:00</td><td>ASV Schrems - Haitzendorf</td><td>Landesliga</td><td>Football</td></tr><tr><td data-date="13712400000">08 Jun 17:00</td><td>EIF Akademy - EBK</td><td>Kolmonen</td><td>Football</td></tr><tr><td data-date="13712400000">08 Jun 17:00</td><td>Inter Turku II - TPK</td><td>Kolmonen</td><td>Football</td></tr><tr><td data-date="13712400000">08 Jun 17:00</td><td>Ismaily SC - Tala El Geish</td><td>Egyptian Premier</td><td>Football</td></tr><tr><td data-date="13712400000">08 Jun 17:00</td><td>Levadia Tallinn (U-21) - Flora Tallinn II</td><td>Esiliiga</td><td>Football</td></tr><tr><td data-date="13712400000">08 Jun 17:00</td><td>PP-70 - Tampere United II</td><td>Kolmonen</td><td>Football</td></tr><tr><td data-date="13712400000">08 Jun 17:00</td><td>Roi United - KePS</td><td>Kolmonen</td><td>Football</td></tr><tr><td data-date="13712400000">08 Jun 17:00</td><td>Trollhattan - Ahlafors IF</td><td>Swedish Cup</td><td>Football</td></tr><tr><td data-date="13713300000">08 Jun 17:15</td><td>AFE - FC Black Stars</td><td>Premiere Division</td><td>Football</td></tr><tr><td data-date="13713300000">08 Jun 17:15</td><td>Ponnistajat - Gnistan/Ogeli</td><td>Kolmonen</td><td>Football</td></tr><tr><td data-date="13713300000">08 Jun 17:15</td><td>Real Bamako - Cercle Olympique de Bamako</td><td>Premiere Division</td><td>Football</td></tr><tr><td data-date="13713300000">08 Jun 17:15</td><td>USFAS Bamako - USC Kita</td><td>Premiere Division</td><td>Football</td></tr><tr><td data-date="13714200000">08 Jun 17:30</td><td>FC Jazz - Poxyt</td><td>Kakkonen</td><td>Football</td></tr><tr><td data-date="13715100000">08 Jun 17:45</td><td>MPS Helsinki - Loviisa</td><td>Kolmonen</td><td>Football</td></tr><tr><td data-date="13716000000">08 Jun 18:00</td><td>IFK Hassleholm - Trelleborgs FF</td><td>Division 2</td><td>Football</td></tr><tr><td data-date="13716000000">08 Jun 18:00</td><td>Laholms FK - Hittarps IK</td><td>Division 2</td><td>Football</td></tr><tr><td data-date="13716000000">08 Jun 18:00</td><td>Tampereen Pallo-Veikot - Tampereen Peli-Toverit</td><td>Kolmonen</td><td>Football</td></tr><tr><td data-date="13716000000">08 Jun 18:00</td><td>Temperley Reserves - Deportivo Moron Reserves</td><td>Reserve League</td><td>Football</td></tr><tr><td data-date="13716000000">08 Jun 18:00</td><td>VMA IK - IFK Hassleholm</td><td>Division 2</td><td>Football</td></tr><tr><td data-date="13717800000">08 Jun 18:30</td><td>Uruguay (U-20) - Israel (U-20)</td><td>FIFA World Cup (U-20)</td><td>Football</td></tr><tr><td data-date="13719600000">08 Jun 19:00</td><td>All Boys Reserves - Villa Dalmine Reserves</td><td>Reserve League</td><td>Football</td></tr><tr><td data-date="13719600000">08 Jun 19:00</td><td>America SP (U-20) - Tanabi (U-20)</td><td>(U-20) League</td><td>Football</td></tr><tr><td data-date="13719600000">08 Jun 19:00</td><td>Atletico Banfield - CA San Lorenzo</td><td>Primera Division. Women</td><td>Football</td></tr>
+  </tbody>
+</table>
+
+<script>
+        function sortTable(columnIndex) {
+            var table, rows, switching, i, x, y, shouldSwitch, dir, switchCount = 0;
+            table = document.getElementById("myTable");
+            switching = true;
+            // Set the sorting direction to ascending
+            dir = "asc";
+
+            while (switching) {
+                switching = false;
+                rows = table.getElementsByTagName("tr");
+
+                for (i = 1; i < (rows.length - 1); i++) {
+                    shouldSwitch = false;
+                    x = parseInt(rows[i].getElementsByTagName("td")[columnIndex].getAttribute("data-date"));
+                    y = parseInt(rows[i + 1].getElementsByTagName("td")[columnIndex].getAttribute("data-date"));
+
+                    if (dir == "asc") {
+                        if (x > y) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    } else if (dir == "desc") {
+                        if (x < y) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    }
+                }
+
+                if (shouldSwitch) {
+                    rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                    switching = true;
+                    switchCount++;
+                } else {
+                    if (switchCount == 0 && dir == "asc") {
+                        dir = "desc";
+                        switching = true;
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

@@ -3,86 +3,73 @@
 <head>
   <title>BetBonanza</title>
   <style>
-    table {
-      border-collapse: collapse;
-    }
-    th, td {
-      border: 1px solid black;
-      padding: 8px;
-      text-align: left;
-    }
-  </style>
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
 <table id="myTable">
   <thead>
   <tr>
     <th onclick="sortTable(0)">Date</th>
-    <th>Column 2</th>
-    <th>Column 3</th>
+    <th>Clubs</th>
+    <th>Tournament</th>
+    <th>Sport</th>
   </tr>
   </thead>
   <tbody>
-  <tr>
-    <td data-date="1652241600000">08 Jun 2022</td>
-    <td>Value 1</td>
-    <td>Value 2</td>
-  </tr>
-  <tr>
-    <td data-date="1661894400000">30 Aug 2022</td>
-    <td>Value 3</td>
-    <td>Value 4</td>
-  </tr>
-  <tr>
-    <td data-date="1630444800000">01 Sep 2021</td>
-    <td>Value 5</td>
-    <td>Value 6</td>
-  </tr>
+      {{table_data}}
   </tbody>
 </table>
 
 <script>
-    function sortTable(columnIndex) {
-      var table, rows, switching, i, x, y, shouldSwitch, dir, switchCount = 0;
-      table = document.getElementById("myTable");
-      switching = true;
-      // Set the sorting direction to ascending
-      dir = "asc";
-
-      while (switching) {
-        switching = false;
-        rows = table.getElementsByTagName("tr");
-
-        for (i = 1; i < (rows.length - 1); i++) {
-          shouldSwitch = false;
-          x = parseInt(rows[i].getElementsByTagName("td")[columnIndex].getAttribute("data-date"));
-          y = parseInt(rows[i + 1].getElementsByTagName("td")[columnIndex].getAttribute("data-date"));
-
-          if (dir == "asc") {
-            if (x > y) {
-              shouldSwitch = true;
-              break;
-            }
-          } else if (dir == "desc") {
-            if (x < y) {
-              shouldSwitch = true;
-              break;
-            }
-          }
-        }
-
-        if (shouldSwitch) {
-          rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-          switching = true;
-          switchCount++;
-        } else {
-          if (switchCount == 0 && dir == "asc") {
-            dir = "desc";
+        function sortTable(columnIndex) {
+            var table, rows, switching, i, x, y, shouldSwitch, dir, switchCount = 0;
+            table = document.getElementById("myTable");
             switching = true;
-          }
+            // Set the sorting direction to ascending
+            dir = "asc";
+
+            while (switching) {
+                switching = false;
+                rows = table.getElementsByTagName("tr");
+
+                for (i = 1; i < (rows.length - 1); i++) {
+                    shouldSwitch = false;
+                    x = parseInt(rows[i].getElementsByTagName("td")[columnIndex].getAttribute("data-date"));
+                    y = parseInt(rows[i + 1].getElementsByTagName("td")[columnIndex].getAttribute("data-date"));
+
+                    if (dir == "asc") {
+                        if (x > y) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    } else if (dir == "desc") {
+                        if (x < y) {
+                            shouldSwitch = true;
+                            break;
+                        }
+                    }
+                }
+
+                if (shouldSwitch) {
+                    rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+                    switching = true;
+                    switchCount++;
+                } else {
+                    if (switchCount == 0 && dir == "asc") {
+                        dir = "desc";
+                        switching = true;
+                    }
+                }
+            }
         }
-      }
-    }
-  </script>
+    </script>
 </body>
 </html>

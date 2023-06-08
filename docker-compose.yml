@@ -11,6 +11,4 @@ services:
         env_file:
             -   "./configs/${TASK}.yml"
         environment:
-#            JVM_OPTS: -Xmx900m -Xms900m -XX:MaxPermSize=900m
             TASK: "${TASK}"
-            TELEGRAM_TOKEN: 6123168689:AAGfgNNggz-jGrPGuHQTEQ7cPhzkQSnhEcI
