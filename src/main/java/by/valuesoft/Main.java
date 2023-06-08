@@ -7,10 +7,13 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         if (Consts.TASK.equalsIgnoreCase("BETBONANZA")) {
-            new BetBonanza(Consts.URL).start();
+            Data.storeAsHTML(
+                    new BetBonanza(Consts.URL)
+                            .parse()
+            );
 
         } else {
-            throw new Exception("System env TASK should be configured, try TASK=BETBONANZA");
+            throw new Exception("System.env 'TASK' should be configured, try TASK=BETBONANZA");
         }
     }
 
